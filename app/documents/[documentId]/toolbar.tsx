@@ -576,7 +576,6 @@ export const Toolbar = () => {
       <LinkButton />
       <ImageButton />
       <AlignButton />
-      {/* Todo Line Heihgt*/}
       <ListButton />
       {sections[2].map((item) => (
         <ToolbarButton key={item.label} {...item} />
