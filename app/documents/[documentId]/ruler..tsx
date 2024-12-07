@@ -2,7 +2,6 @@
 
 import React, { useRef, useState } from 'react';
 import { FaCaretDown } from 'react-icons/fa';
-// import { useStorage } from '@liveblocks/react/suspense';
 import { useStorage, useMutation } from '@liveblocks/react';
 
 const markers = Array.from({ length: 83 }, (_, i) => i);

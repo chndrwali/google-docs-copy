@@ -20,7 +20,6 @@ import TextAlign from '@tiptap/extension-text-align';
 import { useEditorStore } from '@/store/use-editor-store';
 import { FontSizeExtension } from '@/extensions/font-size';
 import { useLiveblocksExtension } from '@liveblocks/react-tiptap';
-// import { useStorage } from '@liveblocks/react/suspense';
 import { useStorage } from '@liveblocks/react';
 import { Ruler } from './ruler.';
 import { Threads } from './threads';
