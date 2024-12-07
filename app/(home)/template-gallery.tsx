@@ -38,7 +38,7 @@ export const TemplateGallery = () => {
                 <div className={cn('aspect-[3/4] flex flex-col gap-y-2.5', isCreating && 'pointer-events-none opacity-50')}>
                   <button
                     disabled={isCreating}
-                    onClick={() => onTemplateClick(template.label, '')}
+                    onClick={() => onTemplateClick(template.label, template.initialContent)}
                     style={{
                       backgroundImage: `url(${template.imageUrl})`,
                       backgroundSize: 'cover',
